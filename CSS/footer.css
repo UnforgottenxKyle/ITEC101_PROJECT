@@ -1,0 +1,130 @@
+footer {
+  height: 600px;
+  background: #060606;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+  padding: 0 80px;
+}
+footer .content {
+  display: grid;
+  grid-template-columns: 1fr 220px 280px 280px;
+  gap: 45px;
+  border-bottom: 3px solid #1e2122;
+}
+footer .content .con1 {
+  display: grid;
+  grid-template-rows: 150px 1fr 150px;
+  grid-column: 1/2;
+}
+footer .content .con1 .img-logo {
+  margin: 50px 0px;
+}
+footer .content .con1 .text {
+  color: #e7e7e7;
+  font-family: Genos;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: -0.2px;
+}
+footer .content .con2 {
+  grid-column: 2/3;
+  text-align: center;
+  padding: 20px 0;
+}
+footer .content .con2 .label h5 {
+  padding: 70px;
+  color: #f1f1f1;
+  font-family: Genos;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  margin-bottom: -35px;
+}
+footer .content .con2 p {
+  color: #e7e7e7;
+  font-family: Genos;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: -0.2px;
+}
+footer .content .con3 {
+  grid-column: 3/4;
+  text-align: center;
+  padding: 20px 0;
+}
+footer .content .con3 .label h5 {
+  padding: 70px;
+  color: #f1f1f1;
+  font-family: Genos;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  margin-bottom: -35px;
+}
+footer .content .con3 p {
+  color: #e7e7e7;
+  font-family: Genos;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: -0.2px;
+}
+footer .content .con4 {
+  grid-column: 4/5;
+  text-align: center;
+  padding: 20px 0;
+}
+footer .content .con4 .label h5 {
+  padding: 70px;
+  color: #f1f1f1;
+  font-family: Genos;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  margin-bottom: -35px;
+}
+footer .content .con4 p {
+  color: #e7e7e7;
+  font-family: Genos;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: -0.2px;
+}
+footer .footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+footer .footer p {
+  color: #e7e7e7;
+  font-family: Genos;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: -0.2px;
+}
+footer .footer h5 {
+  color: #f1f1f1;
+  font-family: Genos;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 124%;
+  letter-spacing: -0.2px;
+}

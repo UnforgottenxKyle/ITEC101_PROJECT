@@ -1,0 +1,130 @@
+main {
+  background: linear-gradient(179deg, #060606 0%, #1e2122 100%);
+  height: 100vh;
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 112px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+main .home-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px;
+}
+main .home-section .text p {
+  color: #f1f1f1;
+  font-size: 52px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96%;
+  letter-spacing: -0.52px;
+}
+main .home-section .text .no {
+  color: #e7e7e7;
+  font-size: 20px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: -0.2px;
+}
+main .home-section .text span {
+  color: #b2f817;
+  font-weight: 800;
+}
+main .home-section .text .span1 {
+  color: #e7e7e7;
+  font-weight: 700;
+}
+main .home-section .text2 {
+  margin-top: 2%;
+}
+main .home-section .text2 .feuture1 {
+  display: inline-flex;
+  height: 164px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+main .home-section .text2 .feuture2 {
+  display: inline-flex;
+  height: 164px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+main .home-section .text2 .feuture3 {
+  display: inline-flex;
+  height: 164px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+main .home-section .text2 .feuture1 .no1 {
+  color: #f1f1f1;
+  font-size: 52px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96%;
+  letter-spacing: -0.52px;
+}
+main .home-section .text2 .feuture2 .no1 {
+  color: #f1f1f1;
+  font-size: 52px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96%;
+  letter-spacing: -0.52px;
+}
+main .home-section .text2 .feuture3 .no1 {
+  color: #f1f1f1;
+  font-size: 52px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96%;
+  letter-spacing: -0.52px;
+}
+main .home-section .text2 .feuture1 .no2 {
+  color: #b2f817;
+  font-size: 24px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  margin-top: -30px;
+}
+main .home-section .text2 .feuture2 .no2 {
+  color: #b2f817;
+  font-size: 24px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  margin-top: -30px;
+}
+
+main .home-section .text2 .feuture3 .no2 {
+  color: #b2f817;
+  font-size: 24px;
+  font-family: Genos;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  margin-top: -30px;
+}
+
+/* HOME-SECTION ENDS*/
